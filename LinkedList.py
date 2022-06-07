@@ -113,6 +113,15 @@ class LinkedList:
             start = start.getNextNode()
         return size
 
+    def __len__(self):
+        """Length of `linkedList`
+
+        :return: Returns length of `linkedList`
+        :rtype: int
+        """
+
+        return self.length()
+
     def index(self, data: int | float) -> int:
         """Index of the received data
 
